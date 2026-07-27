@@ -1,6 +1,8 @@
+---
 layout: page
-title: "abount"
+title: "abont"
 permalink: /about
+---
 
 # header 1
 
