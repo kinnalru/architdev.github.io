@@ -1,3 +1,3 @@
 ---
-list_title: Мои посты
+list_title: Мои посты 
 ---
