@@ -40,7 +40,7 @@ minima:
   #   - about.md
 
   show_excerpts: false
-  hide_site_feed_link: true
+  hide_site_feed_link: false
 
   social_links:
     - title: Samoilenko Yuri @ GitLab
