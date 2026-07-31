@@ -25,6 +25,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-hostname
 
+feed:
+  path: /feed.xml
+  posts_limit: 50
 
 minima:
   # Minima skin selection. Available skins are:
