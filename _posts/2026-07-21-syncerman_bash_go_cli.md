@@ -5,6 +5,7 @@ date: '2026-07-21 15:46:22 +0000'
 tags: []
 canonical_url: https://teletype.in/@jerry_ru/NpCFHTA1uZQ?utm_source=teletype&utm_medium=feed_rss&utm_campaign=jerry_ru
 background: 'https://img3.teletype.in/files/a3/78/a378884e-5416-4669-b2fb-a001bce9d848.png'
+author: Samouilnko Yuri
 ---
 
 ![](https://img3.teletype.in/files/a3/78/a378884e-5416-4669-b2fb-a001bce9d848.png)
