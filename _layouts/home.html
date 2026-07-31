@@ -26,7 +26,7 @@ layout: base
       {%- for post in posts -%}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <i style="float: right;font-weight: 300;font-size: smaller">Моя публикация на <a href="{{ post.canonical_url }}">{{ post.canonical_url | hostname }}</a> </i>
+        <i style="float: right;font-weight: 300;font-size: smaller">Моя публикация на <a href="{{ post.canonical_url }}">{{ post.canonical_url | split: '?' | first }}</a> </i>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
