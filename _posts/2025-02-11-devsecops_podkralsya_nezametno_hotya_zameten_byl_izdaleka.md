@@ -1,13 +1,14 @@
 ---
-layout: post
-title: DevSecOps подкрался незаметно, хотя заметен был издалека…
-date: '2025-02-11 12:34:47 +0000'
-tags: []
 canonical_url: https://blog.rnds.pro/064-devsecops1?utm_source=teletype&utm_medium=feed_rss&utm_campaign=rnds
+date: '2025-02-11 12:34:47 +0000'
+layout: post
 original_author: kinnalru
-
+published: 'true'
+published_at: '2025-02-11 12:34:47 +0000'
+slug: devsecops_podkralsya_nezametno_hotya_zameten_byl_izdaleka
+tags: []
+title: DevSecOps подкрался незаметно, хотя заметен был издалека…
 ---
-
 ![](https://img1.teletype.in/files/42/f0/42f0e9b3-d3f8-403f-ac95-bfd789c92278.jpeg)
 
 DevSecOps уверенно шагает по нашей индустрии, и горе тому, кто попадёт под его поступь… Эта статья про ~~ультимативную~~ сборку базовых образов для Ruby для удовлетворения самых параноидальных потребностей ИБ. Да, именно об этом мы и расскажем - что такое "инсталляция ruby", где, что, почему лежит и как с этим жить нашему пайплайну сборки и самому приложению.

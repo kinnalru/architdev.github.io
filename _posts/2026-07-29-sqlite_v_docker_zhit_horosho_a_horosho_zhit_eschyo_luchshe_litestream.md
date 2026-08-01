@@ -1,14 +1,15 @@
 ---
-layout: post
-title: 'SQLite в Docker: жить хорошо, а хорошо жить — ещё лучше (Litestream)'
+canonical_url: https://blog.rnds.pro/070-litestream?utm_source=teletype&utm_medium=feed_rss&utm_campaign=rnds
 date: '2026-07-29 13:44:57 +0000'
+layout: post
+original_author: kinnalru
+published: 'true'
+published_at: '2026-07-29 13:44:57 +0000'
+slug: sqlite_v_docker_zhit_horosho_a_horosho_zhit_eschyo_luchshe_litestream
 tags:
 - other
-canonical_url: https://blog.rnds.pro/070-litestream?utm_source=teletype&utm_medium=feed_rss&utm_campaign=rnds
-original_author: kinnalru
-
+title: 'SQLite в Docker: жить хорошо, а хорошо жить — ещё лучше (Litestream)'
 ---
-
 ![](https://img3.teletype.in/files/26/fa/26fa30c2-bbc2-4f91-9609-899d9f07a9b2.png)
 
 Иногда хочется, чтобы всё было просто. Взял Rails-приложение, завернул в Docker, запустил — и оно работает. Без отдельной СУБД, без монтирования хранилища для картинок и пр.
