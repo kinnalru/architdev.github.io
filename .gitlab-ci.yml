@@ -17,7 +17,6 @@ build:
       when: never
 
 sync-public-repos:
-  stage: schedule
   image: ruby:3.2-alpine
   variables:
     APK_CACHE_DIR: $CI_PROJECT_DIR/.cache/apk
