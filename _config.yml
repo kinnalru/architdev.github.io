@@ -8,6 +8,8 @@ description: >-
 url: "https://kinnalru.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: kinnalru
 
+repository: kinnalru/kinnalru.github.io
+
 author:
   name: Самойленко Юрий
   email: kinnalru@gmail.com

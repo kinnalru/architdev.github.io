@@ -1,7 +1,17 @@
 # This file is a template, and might need editing before it works on your project.
 # Full project: https://gitlab.com/pages/plain-html
 
-image: busybox
+image: ruby:2.3-slim
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+    - bundle
+    - JEKYLL_ENV=production bundle exec jekyll build -d ./public/
 
 pages:
   stage: deploy
