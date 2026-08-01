@@ -9,8 +9,6 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: https://kinnalru.github.io
 github_username: kinnalru
 
-repository: kinnalru/kinnalru.github.io
-
 author:
   name: Самойленко Юрий
   email: kinnalru@gmail.com
