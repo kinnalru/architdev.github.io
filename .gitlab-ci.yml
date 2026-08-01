@@ -14,6 +14,7 @@ build:
     - bundle
     - JEKYLL_ENV=production bundle exec jekyll build -d ./public/
     - cat public/index.html
+    - env
   pages: true
   artifacts:
     paths:
