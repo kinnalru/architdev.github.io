@@ -1,13 +1,13 @@
 ---
-title: Опять синхронизация, но теперь блогов
-published: 'true'
-date: '2026-07-31 13:26:25 +0000'
-original_author: kinnalru
-tags: []
 canonical_url: https://teletype.in/@jerry_ru/scWep5L3rOI?utm_source=teletype&utm_medium=feed_rss&utm_campaign=jerry_ru
-slug: opyat_sinhronizatsiya_no_teper_blogov
-published_at: '2026-07-31 13:26:25 +0000'
+date: '2026-07-31 13:26:25 +0000'
 layout: post
+original_author: kinnalru
+published: 'true'
+published_at: '2026-07-31 13:26:25 +0000'
+slug: opyat_sinhronizatsiya_no_teper_blogov
+tags: []
+title: Опять синхронизация, но теперь блогов
 ---
 Есть у меня небольшой фетиш по синхронизации… И в очередной раз, подойдя к проблеме блога, я наконец собрал разрозненные куски в единую систему :)
 
