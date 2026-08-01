@@ -10,6 +10,7 @@ stages:
 build:
   stage: build
   script:
+    - apt-get install build-essential
     - bundle
     - JEKYLL_ENV=production bundle exec jekyll build -d ./public/
 
