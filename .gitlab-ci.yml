@@ -7,8 +7,8 @@ build:
   script:
     - apt-get update -y; apt-get install -y build-essential
     - bundle
-    - JEKYLL_ENV=production bundle exec jekyll build -d ./public/
-    - JEKYLL_ENV=production bundle exec jekyll build -d ./public/pages/kinnalru/
+    - JEKYLL_ENV=production bundle exec jekyll build --config _config.yml --config _config.gitlab.yml -d ./public/
+    - JEKYLL_ENV=production bundle exec jekyll build --config _config.yml --config _config.gitlab.yml -d ./public/pages/kinnalru/
   pages: 
     publish: public
   rules:
