@@ -14,7 +14,7 @@ build:
   rules:
     - if: ($CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH) && ($CI_PIPELINE_SOURCE != "schedule")
 
-sync-public-repos:
+sync-my-blogs:
   image: ruby:3.2-alpine
   variables:
     APK_CACHE_DIR: $CI_PROJECT_DIR/.cache/apk
@@ -31,7 +31,6 @@ sync-public-repos:
     variables:
       - $SCRIPTNAME == "skriptorium"
   script:
-    - env
     - apk add musl-dev gcc make
     - gem install skriptorium && gem update skriptorium
-    - skriptorium sync --config $SKRIPTORIUM_CONFIG -v -n
+    - skriptorium sync --config $SKRIPTORIUM_CONFIG -v
