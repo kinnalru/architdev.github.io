@@ -8,6 +8,7 @@ description: >-
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: https://kinnalru.github.io
 github_username: kinnalru
+repository: aaaaaaa
 
 author:
   name: Самойленко Юрий
