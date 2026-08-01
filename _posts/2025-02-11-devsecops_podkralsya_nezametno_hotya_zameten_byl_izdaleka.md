@@ -1,13 +1,13 @@
 ---
-title: DevSecOps подкрался незаметно, хотя заметен был издалека…
-published: 'true'
-date: '2025-02-11 12:34:47 +0000'
-original_author: kinnalru
-tags: []
 canonical_url: https://blog.rnds.pro/064-devsecops1?utm_source=teletype&utm_medium=feed_rss&utm_campaign=rnds
-slug: devsecops_podkralsya_nezametno_hotya_zameten_byl_izdaleka
-published_at: '2025-02-11 12:34:47 +0000'
+date: '2025-02-11 12:34:47 +0000'
 layout: post
+original_author: kinnalru
+published: 'true'
+published_at: '2025-02-11 12:34:47 +0000'
+slug: devsecops_podkralsya_nezametno_hotya_zameten_byl_izdaleka
+tags: []
+title: DevSecOps подкрался незаметно, хотя заметен был издалека…
 ---
 ![](https://img1.teletype.in/files/42/f0/42f0e9b3-d3f8-403f-ac95-bfd789c92278.jpeg)
 
