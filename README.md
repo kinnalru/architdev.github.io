@@ -1,10 +1,7 @@
 # Зеркало моих постов
 
-<div align="right" float="right" style="float:right">
+<img src="./avatar_pixel.jpeg" alt="Me" style="width:200px;float:right" align="right" width="200"/>
 
-  <img src="./avatar_pixel.jpeg" alt="Me" style="width:200px;float:right" width="200"/>
-
-</div>
 
 Сюда настроен автопостинг с моих ресурсов:
   - [Teletype](https://teletype.in/@jerry_ru) - мой личный бложик
