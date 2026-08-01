@@ -1,6 +1,6 @@
 # Зеркало моих постов
 
-<div align="center" float="right" style="float:right">
+<div align="right" float="right" style="float:right">
 
   <img src="./avatar_pixel.jpeg" alt="Me" style="width:200px;float:right" width="200"/>
 
