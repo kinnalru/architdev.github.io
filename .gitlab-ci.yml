@@ -33,8 +33,6 @@ sync-public-repos:
       - schedules
     variables:
       - $SCRIPTNAME == "skriptorium"
-  before_script:
-    - 
   script:
     - gem install skriptorium && gem update skriptorium
     - skriptorium sync --config $SKRIPTORIUM_CONFIG -v -n
