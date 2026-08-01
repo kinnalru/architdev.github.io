@@ -1,16 +1,16 @@
 ---
-title: Использование Scientist для рефакторинга критических участков Ruby on Rails
-  приложения
-published: 'true'
+canonical_url: https://blog.rnds.pro/032-scientist?utm_source=teletype&utm_medium=feed_rss&utm_campaign=rnds
 date: '2022-09-30 12:19:06 +0000'
+layout: post
 original_author: kinnalru
+published: 'true'
+published_at: '2022-09-30 12:19:06 +0000'
+slug: ispolzovanie_scientist_dlya_refaktoringa_kriticheskih_uchastkov_ruby_on_rails_prilozheniya
 tags:
 - rails
 - ruby
-canonical_url: https://blog.rnds.pro/032-scientist?utm_source=teletype&utm_medium=feed_rss&utm_campaign=rnds
-slug: ispolzovanie_scientist_dlya_refaktoringa_kriticheskih_uchastkov_ruby_on_rails_prilozheniya
-published_at: '2022-09-30 12:19:06 +0000'
-layout: post
+title: Использование Scientist для рефакторинга критических участков Ruby on Rails
+  приложения
 ---
 [Перевод статьи _“Using Scientist to Refactor Critical Ruby on Rails Code”_](https://blog.appsignal.com/2022/05/18/using-scientist-to-refactor-critical-ruby-on-rails-code.html)  
 [Darren Broemmer](https://blog.appsignal.com/authors/darren-broemmer) от 18 мая 2022 года.
