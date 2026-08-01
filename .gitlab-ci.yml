@@ -13,13 +13,10 @@ build:
     - apt-get update -y; apt-get install -y build-essential
     - bundle
     - JEKYLL_ENV=production bundle exec jekyll build -d ./public/
-
-pages:
-  stage: deploy
-  script:
-    - echo "The site will be deployed to $CI_PAGES_URL"
+  pages: true
   artifacts:
     paths:
       - public
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
