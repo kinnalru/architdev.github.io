@@ -1,17 +1,17 @@
 ---
-title: Чистка build-агентов Gitlab
-published: 'true'
+canonical_url: https://blog.rnds.pro/030-gitlab-janitor?utm_source=teletype&utm_medium=feed_rss&utm_campaign=rnds
 date: '2022-08-11 09:52:28 +0000'
+layout: post
 original_author: kinnalru
+published: 'true'
+published_at: '2022-08-11 09:52:28 +0000'
+slug: chistka_build_agentov_gitlab
 tags:
 - infra
 - gitlab
 - cleaner
 - devops
-canonical_url: https://blog.rnds.pro/030-gitlab-janitor?utm_source=teletype&utm_medium=feed_rss&utm_campaign=rnds
-slug: chistka_build_agentov_gitlab
-published_at: '2022-08-11 09:52:28 +0000'
-layout: post
+title: Чистка build-агентов Gitlab
 ---
 ![](https://img4.teletype.in/files/37/38/37383f40-cc8b-4523-b616-a1705311242e.jpeg)
 
