@@ -9,10 +9,32 @@ build:
     - bundle
     - JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config.gitlab.yml -d ./public/
     - JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config.gitlab.yml -d ./public/pages/kinnalru/
-    - cat public/index.html
-    - cat public/feed.xml
   pages: 
     publish: public
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: never
 
+sync-public-repos:
+  stage: schedule
+  image: ruby:3.2-alpine
+  variables:
+    APK_CACHE_DIR: $CI_PROJECT_DIR/.cache/apk
+    DEBIAN_FRONTEND: noninteractive
+    SHELL: /bin/bash
+  cache:
+    key: repositories-cache
+    paths:
+      - repositories
+      - $APK_CACHE_DIR
+  only:
+    refs:
+      - schedules
+    variables:
+      - $SCRIPTNAME == "skriptorium"
+  before_script:
+    - 
+  script:
+    - gem install skriptorium && gem update skriptorium
+    - skriptorium sync --config $SKRIPTORIUM_CONFIG -v -n
