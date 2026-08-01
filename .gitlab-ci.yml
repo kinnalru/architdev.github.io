@@ -3,23 +3,20 @@
 
 image: ruby:3.2-slim
 
-stages:
-  - build
-  - deploy
-
-build:
+pages:
   stage: build
   script:
     - apt-get update -y; apt-get install -y build-essential
     - bundle
     - JEKYLL_ENV=production bundle exec jekyll build -d ./public/
     - JEKYLL_ENV=production bundle exec jekyll build -d ./public/pages/kinnalru/
-    - cat public/index.html
-    - env
-  pages: true
+  pages: 
+    artifacts:
+      paths:
+        - public/
   artifacts:
     paths:
-      - public
+      - public/
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
