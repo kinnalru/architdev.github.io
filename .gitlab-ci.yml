@@ -13,6 +13,7 @@ build:
     - apt-get update -y; apt-get install -y build-essential
     - bundle
     - JEKYLL_ENV=production bundle exec jekyll build -d ./public/
+    - cat public/index.html
   pages: true
   artifacts:
     paths:
