@@ -2,7 +2,12 @@
 layout: null 
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://w3.org" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0"
+  xmlns:atom="http://w3.org"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:yandex="http://news.yandex.ru" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
@@ -15,14 +20,18 @@ layout: null
       <item>
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
         <link>{{ post.url | absolute_url }}</link>
+        <pdalink>{{ post.url | absolute_url }}</pdalink>
         <dc:creator>{{ site.github_username }}</dc:creator>
+        <author>{{ site.github_username }}</author>
         <title>{{ post.title | xml_escape }}</title>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <yandex:genre>article</yandex:genre>
         {% if post.image  %}
         <media:content medium="image" url="{{ post.image }}"/>
         {% endif %}
         <description><![CDATA[ {{ post.content }} ]]></description>
         <content:encoded><![CDATA[ {{ post.content }} ]]></content:encoded>
+        <yandex:full-text>{{ post.content | strip_html }}</yandex:full-text>
 
         {% for tag in post.tags %}
         <category>{{ tag | xml_escape }}</category>
