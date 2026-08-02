@@ -1,6 +1,8 @@
 ---
 canonical_url: https://blog.rnds.pro/064-devsecops1?utm_source=teletype&utm_medium=feed_rss&utm_campaign=rnds
+cover_image: https://img1.teletype.in/files/42/f0/42f0e9b3-d3f8-403f-ac95-bfd789c92278.jpeg
 date: '2025-02-11 12:34:47 +0000'
+image: https://img1.teletype.in/files/42/f0/42f0e9b3-d3f8-403f-ac95-bfd789c92278.jpeg
 layout: post
 original_author: kinnalru
 published: 'true'

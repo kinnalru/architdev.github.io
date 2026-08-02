@@ -1,6 +1,8 @@
 ---
 canonical_url: https://blog.rnds.pro/070-litestream?utm_source=teletype&utm_medium=feed_rss&utm_campaign=rnds
+cover_image: https://img3.teletype.in/files/26/fa/26fa30c2-bbc2-4f91-9609-899d9f07a9b2.png
 date: '2026-07-29 13:44:57 +0000'
+image: https://img3.teletype.in/files/26/fa/26fa30c2-bbc2-4f91-9609-899d9f07a9b2.png
 layout: post
 original_author: kinnalru
 published: 'true'

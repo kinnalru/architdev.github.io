@@ -1,6 +1,8 @@
 ---
 canonical_url: https://blog.rnds.pro/032-scientist?utm_source=teletype&utm_medium=feed_rss&utm_campaign=rnds
+cover_image: https://img4.teletype.in/files/fe/ce/fece8ad1-1d4a-45ab-924c-b3d16342aa98.jpeg
 date: '2022-09-30 12:19:06 +0000'
+image: https://img4.teletype.in/files/fe/ce/fece8ad1-1d4a-45ab-924c-b3d16342aa98.jpeg
 layout: post
 original_author: kinnalru
 published: 'true'
