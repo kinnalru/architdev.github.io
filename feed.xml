@@ -16,13 +16,14 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
+    <language>ru-ru</language>
     {% for post in site.posts limit:50 %}
       <item>
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
         <link>{{ post.url | absolute_url }}</link>
         <pdalink>{{ post.url | absolute_url }}</pdalink>
         <dc:creator>{{ site.github_username }}</dc:creator>
-        <author>{{ site.email }}</author>
+        <author>{{ site.email }} ({{ site.author.name }})</author>
         <title>{{ post.title | xml_escape }}</title>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <yandex:genre>article</yandex:genre>
